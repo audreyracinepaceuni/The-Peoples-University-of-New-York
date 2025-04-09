@@ -268,4 +268,114 @@ section img.about {
     }
 }
 
+/* DEPARTMENTS PAGE ONLY */
+#tate {
+    background-color: #f1f8ff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+#tate h1 {
+    font-size: 2.5rem;
+    color: #1d4e89;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+section img.depart {
+    width: 75%; 
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tate p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#tate h2 {
+    font-size: 2rem;
+    color: #1d4e89;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#tate h3 {
+    font-size: 1.5rem;
+    color: #1d4e89;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#tate ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#tate ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#tate ul li strong {
+    color: #1d4e89;
+}
+
+#tate h3 + ul {
+    margin-left: 20px;
+}
+
+#tate h3 + ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+    #tate {
+        padding: 15px;
+    }
+
+    #tate h1 {
+        font-size: 1.8rem;
+    }
+
+    #tate h2 {
+        font-size: 1.3rem;
+    }
+
+    #tate h3 {
+        font-size: 1.1rem;
+    }
+
+    #tate p {
+        font-size: 0.8rem;
+    }
+
+    #tate ul li {
+        font-size: 0.8rem;
+    }
+
+    #tate img.depart {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* ADMISSIONS PAGE ONLY */
+
 /* CONTACT US ONLY */

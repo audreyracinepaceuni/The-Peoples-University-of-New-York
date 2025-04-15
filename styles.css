@@ -166,12 +166,22 @@ strong {
 footer {
     background-color: #8cd0ff;
     text-align: center;
-    padding: 5px 0; 
+    padding: 2rem 0; 
     margin-top: 30px; 
     font-size: 0.8rem; 
     border-top: 1px solid #ddd; 
     border-radius: 5px;
-  }
+}
+
+footer p {
+	margin: 0px 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #1d4e89;
+}
+
   
 /* ABOUT US ONLY */
 
@@ -379,3 +389,38 @@ section img.depart {
 /* ADMISSIONS PAGE ONLY */
 
 /* CONTACT US ONLY */
+.nolink {
+	color: #1d4e89;
+	text-decoration: none;
+}
+
+fieldset label {
+	display: block;
+}
+
+fieldset {
+	padding: 10px;
+	border-radius: 30px;
+	border-color: #0077b6;
+	border-width: 5px
+}
+
+fieldset.round input {
+	border-radius: 7px;
+	height: 1.5rem;
+    width: 90%;
+}
+
+textarea {
+	border-radius: 10px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}

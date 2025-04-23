@@ -53,7 +53,7 @@ header img {
 .header-content h1 {
     font-size: 3rem;
     color: #1d4e89;
-    font-family: 'Francois One'
+    font-family: 'Francois One';
     line-height: 1.2;
 }
 
@@ -423,4 +423,57 @@ textarea {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
+}
+
+/* Admissions Page Enhancements */
+
+/* Allow horizontal scroll on tables */
+.table-responsive {
+    overflow-x: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    /* Stack requirement lists */
+    .grid {
+      display: block;
+    }
+    .grid ul {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* Scale down section headings */
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    /* Ensure tables fill container */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+  
+    /* Make the Apply button more prominent */
+    .contact .nolink {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #74b9ff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+  }
+
+  /* Make section images scale inside #container */
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* center + bottom gap */
 }

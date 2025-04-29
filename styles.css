@@ -162,25 +162,42 @@ strong {
     margin-top: 10px;
 }
 
-/* Footer */
+/* Footer */ 
 footer {
     background-color: #8cd0ff;
-    text-align: center;
-    padding: 2rem 0; 
-    margin-top: 30px; 
-    font-size: 0.8rem; 
-    border-top: 1px solid #ddd; 
+    padding: 0.5rem 0; /* Smaller vertical padding */
+    font-size: 0.75rem;
+    border-top: 1px solid #ddd;
     border-radius: 5px;
+    text-align: center;
 }
 
-footer p {
-	margin: 0px 0;
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem; /* Tighter spacing between text and icons */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-footer a {
-	text-decoration: none;
-	color: #1d4e89;
+footer .copyright p {
+    margin: 0.2rem 0; /* Tightens the vertical space between lines */
+    line-height: 1.2;  /* Slightly tighter text spacing */
+    color: #1d4e89;
 }
+
+footer .social img {
+    width: 22px;
+    height: 22px;
+    transition: transform 0.3s ease;
+    margin-top: 0.3rem; /* Reduces spacing below text */
+}
+
+footer .social img:hover {
+    transform: scale(1.1);
+}
+
 
   
 /* ABOUT US ONLY */
@@ -633,3 +650,4 @@ textarea {
     display: block;
     margin: 0 auto 20px; /* center + bottom gap */
 }
+
